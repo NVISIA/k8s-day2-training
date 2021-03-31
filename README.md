@@ -1,4 +1,4 @@
-# Generac Day 2 - Custom K8s with AKS
+# Custom K8s with AKS - Day 2
 
 ## Get Connected
 
