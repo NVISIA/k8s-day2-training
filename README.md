@@ -34,9 +34,19 @@ Please note, you can get this command from the Azure Portal by looking at the AK
 az aks get-credentials --resource-group rg-kubernetes-training --name aks-k8s-training
 ```
 
-4. Deploy a pod
-    1. C
+4. Deploy a test pod
+```bash
+ kubectl apply -f test-pod.yaml
 
+ # exec a shell process into the pod/container
+ kubectl exec -it pod/echoserver /bin/bas
+ > curl localhost:8080
+ 
+ #Clean up!
+kubectl delete -f test-pod.yaml
+
+
+```
 ## Exercises website
 http://13.65.136.154:8890/
 
