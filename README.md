@@ -38,7 +38,7 @@ az aks get-credentials --resource-group rg-kubernetes-training --name aks-k8s-tr
     1. C
 
 ## Exercises website
-http://http://13.65.136.154:8890/
+http://13.65.136.154:8890/
 
 ## References and additional information 
 ### AKS Cluster Reference Links
